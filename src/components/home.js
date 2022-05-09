@@ -36,7 +36,7 @@ const Home = () => {
           <h2>Please Type Your Name:</h2>
           <TextField id="standard-basic" label="Name" variant="standard" onChange={handleChange}/>
           {error && (
-                  <span className="err">Please enter Name</span>
+                  <span className="err">Please Enter Your Name</span>
                 )}
             <Button size="small" onClick={handleClick} variant="contained" endIcon={<SendIcon />}>
               Survey Page

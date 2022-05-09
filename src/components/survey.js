@@ -107,11 +107,8 @@ const Survey = () => {
             </div>
             <Link className="btn btn-primary" to={'/result'} state={{ resultSet }}>
                 <Button variant="contained">Submit</Button>
-            </Link>
-            
-           
-        </div>
-        
+            </Link>        
+        </div>   
     </div>
 )};
 

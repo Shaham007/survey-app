@@ -15,7 +15,7 @@ const App = () => {
                 <Route path="/Result" element={<Result />} />
               </Routes>
 
-              </Router>  
+          </Router>  
          </div>
 )};
 
