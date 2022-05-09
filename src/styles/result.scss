@@ -1,0 +1,22 @@
+@import "./mixins.scss";
+
+.result {
+  @include flexBox;
+  flex-direction: column;
+  .card {
+    width: 614px;
+  }
+}
+
+.resultContainer {
+  padding: 25px 0;
+  @include flexBox;
+  flex-wrap: wrap;
+}
+.resultProgress {
+  @include flexBox;
+  flex-wrap: wrap;
+  span {
+    margin: 0 40px;
+  }
+}

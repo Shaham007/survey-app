@@ -1,0 +1,25 @@
+@import "./mixins.scss";
+
+.survey {
+  @include flexBox;
+  flex-direction: column;
+  margin: 50px 0;
+  .welcomeText {
+    width: 80%;
+  }
+}
+.sliderContainer {
+  width: 350px;
+}
+
+.questionRow {
+  @include flexBox;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 40px 0;
+}
+
+.slider {
+  width: 200px;
+}

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import '../App.scss';
 import Slider from '@mui/material/Slider';
 import Button from '@mui/material/Button';
 

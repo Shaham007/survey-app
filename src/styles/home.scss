@@ -1,0 +1,16 @@
+@import "./mixins.scss";
+
+.home {
+  @include flexBox;
+}
+.err {
+  font-size: small;
+  color: red;
+}
+
+.form {
+  @include flexBox;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-around;
+}

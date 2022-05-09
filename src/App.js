@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './components/home';
 import Survey from './components/survey';
 import Result from './components/result';
-
+import '../src/styles/styles.scss';
 
 const App = () => {
   return (<div className="app">
